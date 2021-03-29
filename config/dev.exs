@@ -1,11 +1,7 @@
-use Mix.Config
+import Config
 
 # Configure your database
 config :bank_account_opening, BankAccountOpening.Repo,
-  username: "postgres",
-  password: "postgres",
-  database: "bank_account_opening_dev",
-  hostname: "localhost",
   show_sensitive_data_on_connection_error: true,
   pool_size: 10
 
